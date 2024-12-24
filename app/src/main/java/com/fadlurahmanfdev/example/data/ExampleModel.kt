@@ -4,5 +4,8 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class ExampleModel(
-    val test:String,
+    val testString:String,
+    val testInt:Int,
+    val testLong:Long,
+    val testFloat:Float,
 )

@@ -29,5 +29,5 @@ jobs:
         uses: wei/curl@master
         continue-on-error: true
         with:
-          args: --verbose https://jitpack.io/com/github/fadlurahmanfdev/kotlin_feature_location/${{ github.ref_name }}/kotlin_feature_location-${{ github.ref_name }}.pom
+          args: --verbose https://jitpack.io/com/github/fadlurahmanfdev/kotlin_local_storage/${{ github.ref_name }}/kotlin_local_storage-${{ github.ref_name }}.pom
           

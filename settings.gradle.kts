@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Kotlin Local Storage"
 include(":app")
-include(":Local Storage")
+include(":local_storage")

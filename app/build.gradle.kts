@@ -47,8 +47,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
-    implementation(project(":Local Storage"))
+    implementation(project(":local_storage"))
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
 }
